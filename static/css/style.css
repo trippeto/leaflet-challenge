@@ -3,8 +3,20 @@ body {
   margin: 0;
 }
 
-#map,
+#mapid,
 body,
 html {
   height: 100%;
+}
+
+.legend {
+  list-style-type: none;
+  padding: 10px 10px;
+  text-align: center;
+  font: 16px Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: black;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
 }
